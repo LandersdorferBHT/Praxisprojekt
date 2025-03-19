@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9F20532D70D941001891FC /* ServiceOrderEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F20512D70D941001891FC /* ServiceOrderEntity+CoreDataClass.swift */; };
+		EC9F20542D70D941001891FC /* ServiceOrderEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F20522D70D941001891FC /* ServiceOrderEntity+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECDA64E02D328F2800EE7569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDA64BE2D328F2600EE7569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDA64C52D328F2600EE7569;
+			remoteInfo = "Product Analysis";
+		};
+		ECDA64EA2D328F2800EE7569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDA64BE2D328F2600EE7569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDA64C52D328F2600EE7569;
+			remoteInfo = "Product Analysis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC9F20512D70D941001891FC /* ServiceOrderEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceOrderEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EC9F20522D70D941001891FC /* ServiceOrderEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceOrderEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ECDA64C62D328F2600EE7569 /* Product Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Product Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDA64DF2D328F2800EE7569 /* Product AnalysisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Product AnalysisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDA64E92D328F2800EE7569 /* Product AnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Product AnalysisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ECDA64F12D328F2800EE7569 /* Exceptions for "Product Analysis" folder in "Product Analysis" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ECDA64C52D328F2600EE7569 /* Product Analysis */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ECDA64C82D328F2600EE7569 /* Product Analysis */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ECDA64F12D328F2800EE7569 /* Exceptions for "Product Analysis" folder in "Product Analysis" target */,
+			);
+			path = "Product Analysis";
+			sourceTree = "<group>";
+		};
+		ECDA64E22D328F2800EE7569 /* Product AnalysisTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Product AnalysisTests";
+			sourceTree = "<group>";
+		};
+		ECDA64EC2D328F2800EE7569 /* Product AnalysisUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Product AnalysisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDA64C32D328F2600EE7569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDA64DC2D328F2800EE7569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDA64E62D328F2800EE7569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC012B632D8ADCE0000DEE27 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				EC9F20512D70D941001891FC /* ServiceOrderEntity+CoreDataClass.swift */,
+				EC9F20522D70D941001891FC /* ServiceOrderEntity+CoreDataProperties.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		ECDA64BD2D328F2600EE7569 = {
+			isa = PBXGroup;
+			children = (
+				ECDA64C82D328F2600EE7569 /* Product Analysis */,
+				EC012B632D8ADCE0000DEE27 /* Core Data */,
+				ECDA64E22D328F2800EE7569 /* Product AnalysisTests */,
+				ECDA64EC2D328F2800EE7569 /* Product AnalysisUITests */,
+				ECDA64C72D328F2600EE7569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDA64C72D328F2600EE7569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA64C62D328F2600EE7569 /* Product Analysis.app */,
+				ECDA64DF2D328F2800EE7569 /* Product AnalysisTests.xctest */,
+				ECDA64E92D328F2800EE7569 /* Product AnalysisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDA64C52D328F2600EE7569 /* Product Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDA64F22D328F2800EE7569 /* Build configuration list for PBXNativeTarget "Product Analysis" */;
+			buildPhases = (
+				ECDA64C22D328F2600EE7569 /* Sources */,
+				ECDA64C32D328F2600EE7569 /* Frameworks */,
+				ECDA64C42D328F2600EE7569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ECDA64C82D328F2600EE7569 /* Product Analysis */,
+			);
+			name = "Product Analysis";
+			packageProductDependencies = (
+			);
+			productName = "Product Analysis";
+			productReference = ECDA64C62D328F2600EE7569 /* Product Analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECDA64DE2D328F2800EE7569 /* Product AnalysisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDA64F72D328F2800EE7569 /* Build configuration list for PBXNativeTarget "Product AnalysisTests" */;
+			buildPhases = (
+				ECDA64DB2D328F2800EE7569 /* Sources */,
+				ECDA64DC2D328F2800EE7569 /* Frameworks */,
+				ECDA64DD2D328F2800EE7569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDA64E12D328F2800EE7569 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECDA64E22D328F2800EE7569 /* Product AnalysisTests */,
+			);
+			name = "Product AnalysisTests";
+			packageProductDependencies = (
+			);
+			productName = "Product AnalysisTests";
+			productReference = ECDA64DF2D328F2800EE7569 /* Product AnalysisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECDA64E82D328F2800EE7569 /* Product AnalysisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDA64FA2D328F2800EE7569 /* Build configuration list for PBXNativeTarget "Product AnalysisUITests" */;
+			buildPhases = (
+				ECDA64E52D328F2800EE7569 /* Sources */,
+				ECDA64E62D328F2800EE7569 /* Frameworks */,
+				ECDA64E72D328F2800EE7569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDA64EB2D328F2800EE7569 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECDA64EC2D328F2800EE7569 /* Product AnalysisUITests */,
+			);
+			name = "Product AnalysisUITests";
+			packageProductDependencies = (
+			);
+			productName = "Product AnalysisUITests";
+			productReference = ECDA64E92D328F2800EE7569 /* Product AnalysisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDA64BE2D328F2600EE7569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ECDA64C52D328F2600EE7569 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ECDA64DE2D328F2800EE7569 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ECDA64C52D328F2600EE7569;
+					};
+					ECDA64E82D328F2800EE7569 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ECDA64C52D328F2600EE7569;
+					};
+				};
+			};
+			buildConfigurationList = ECDA64C12D328F2600EE7569 /* Build configuration list for PBXProject "Product Analysis" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECDA64BD2D328F2600EE7569;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ECDA64C72D328F2600EE7569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDA64C52D328F2600EE7569 /* Product Analysis */,
+				ECDA64DE2D328F2800EE7569 /* Product AnalysisTests */,
+				ECDA64E82D328F2800EE7569 /* Product AnalysisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECDA64C42D328F2600EE7569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDA64DD2D328F2800EE7569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDA64E72D328F2800EE7569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDA64C22D328F2600EE7569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9F20532D70D941001891FC /* ServiceOrderEntity+CoreDataClass.swift in Sources */,
+				EC9F20542D70D941001891FC /* ServiceOrderEntity+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDA64DB2D328F2800EE7569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDA64E52D328F2800EE7569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECDA64E12D328F2800EE7569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDA64C52D328F2600EE7569 /* Product Analysis */;
+			targetProxy = ECDA64E02D328F2800EE7569 /* PBXContainerItemProxy */;
+		};
+		ECDA64EB2D328F2800EE7569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDA64C52D328F2600EE7569 /* Product Analysis */;
+			targetProxy = ECDA64EA2D328F2800EE7569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECDA64F32D328F2800EE7569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WN2D4A9HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Product Analysis/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to scan a files.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.landersdorferanton.Product-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ECDA64F42D328F2800EE7569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WN2D4A9HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Product Analysis/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to scan a files.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.landersdorferanton.Product-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ECDA64F52D328F2800EE7569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECDA64F62D328F2800EE7569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECDA64F82D328F2800EE7569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WN2D4A9HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.landersdorferanton.Product-AnalysisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Product Analysis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Product Analysis";
+			};
+			name = Debug;
+		};
+		ECDA64F92D328F2800EE7569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WN2D4A9HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.landersdorferanton.Product-AnalysisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Product Analysis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Product Analysis";
+			};
+			name = Release;
+		};
+		ECDA64FB2D328F2800EE7569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WN2D4A9HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.landersdorferanton.Product-AnalysisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Product Analysis";
+			};
+			name = Debug;
+		};
+		ECDA64FC2D328F2800EE7569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WN2D4A9HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.landersdorferanton.Product-AnalysisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Product Analysis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDA64C12D328F2600EE7569 /* Build configuration list for PBXProject "Product Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDA64F52D328F2800EE7569 /* Debug */,
+				ECDA64F62D328F2800EE7569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDA64F22D328F2800EE7569 /* Build configuration list for PBXNativeTarget "Product Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDA64F32D328F2800EE7569 /* Debug */,
+				ECDA64F42D328F2800EE7569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDA64F72D328F2800EE7569 /* Build configuration list for PBXNativeTarget "Product AnalysisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDA64F82D328F2800EE7569 /* Debug */,
+				ECDA64F92D328F2800EE7569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDA64FA2D328F2800EE7569 /* Build configuration list for PBXNativeTarget "Product AnalysisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDA64FB2D328F2800EE7569 /* Debug */,
+				ECDA64FC2D328F2800EE7569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDA64BE2D328F2600EE7569 /* Project object */;
+}
