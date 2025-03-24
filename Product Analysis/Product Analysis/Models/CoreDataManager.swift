@@ -11,13 +11,13 @@ import UIKit
 class CoreDataManager {
     
     // Singleton instance to ensure a single shared instance of 'CoreData' is used
-    static let shared = CoreDataManager()  // Singleton-Instanz
+    static let shared = CoreDataManager()
     
     private init() { }
     
     // MARK: - CoreData Stack
     private lazy var persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "Product_Analysis") // Dein CoreData Model Name
+        let container = NSPersistentContainer(name: "Product_Analysis")
         container.loadPersistentStores { description, error in
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
